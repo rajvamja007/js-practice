@@ -19,7 +19,7 @@ const info = {
 // console.log(info["name"]); // same output fetch
 // console.log(info["Full Name"]); // not a . used beacuse of already declare to string value ("Full Name")
 
-//console.log(typeof info.mySym); // mysym is not declare to proper formate then typeof is string
+// console.log(typeof info.mySym); // mysym is not declare to proper formate then typeof is string
 // console.log(typeof info[mySym]);
 
 info.email = "raj2004@gmail.com"
