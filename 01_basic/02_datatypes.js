@@ -20,3 +20,4 @@ let state = null;
 //object
 
 console.log(typeof age);   // which type used     
+console.log(typeof isLoggedIn); // check to type

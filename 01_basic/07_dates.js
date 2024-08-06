@@ -1,5 +1,5 @@
 let myDate = new Date()
-console.log(myDate); // Date is Correct not Proper format
+console.log(myDate); // Date is Correct but not Proper format
 console.log(myDate.toString());
 console.log(myDate.toDateString());
 console.log(myDate.toLocaleString()); // Proper way to fetch date 
@@ -9,7 +9,7 @@ console.log(myCreated);
 console.log(myCreated.toLocaleString()); // your requriment wise create a date and time
 
 //let myNewDate = new Date("2004-06-02");
-let myNewDate = new Date("02-06-2004"); // double digite time start to 01 in month
+let myNewDate = new Date("02-06-2004"); // double digite used that time start to 01 in month
 console.log(myNewDate.toLocaleString());
 
 console.log(Date.now());

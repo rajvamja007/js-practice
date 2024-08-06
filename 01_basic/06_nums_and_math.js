@@ -1,10 +1,10 @@
 //--------------------------Numbers-----------------------------
 
 const score = 400
-console.log(score); // not declare to specify value 
+console.log(score); // not declare to specify datatype 
 
-const balance = new Number(100)
-console.log(balance); // declare to specific value in Number
+const balance = new Number(400)
+console.log(balance); // declare to specific value is Number
 
 console.log(balance.toString().length); // show to how many characters are store the value
 console.log(balance.toFixed(2)); // value of float in 2 numbers are declare 
@@ -17,10 +17,10 @@ console.log(rupees.toLocaleString('en-IN')); // this value is Indian Rupees to s
 
 console.log(Math);
 console.log(Math.abs(-4)); // abs used to values converts to Positive
-console.log(Math.round(4.4)); // round used to values round figer convert
+console.log(Math.round(4.6)); // round used to values round figer convert
 console.log(Math.ceil(5.1)); // ceil used to value in next number convert (Ex: value is 5.1 and convert to ceil in 6)
 console.log(Math.floor(5.9)); // floor used to value in any number enter but convert in same value but round figger convert 
-console.log(Math.sqrt(25)); // squre root used to divide a value
+console.log(Math.sqrt(49)); // squre root used to divide a value
 console.log(Math.min(5,7,8,4)); // Minimum value show
 console.log(Math.max(6,3,8,9)); // Maximum value show
 

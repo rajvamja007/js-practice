@@ -1,4 +1,4 @@
-let score = "33abc" // 33 is number and "33" is string type
+let score = "33abc" // 33 is number and "33abc" is string type
 
 console.log(typeof score);
 
@@ -59,8 +59,8 @@ console.log((3 + 4) * 5 % 6); // difficulat
 
 //----------------------------------------
 
-console.log(+true);
-console.log(+"");
+console.log(+true); // value is 1
+console.log(+""); // value is 0
 
 //----------------------------------------
 
@@ -68,10 +68,10 @@ let num1, num2, num3
 
 num1 = num2 = num3 = 2 + 2
 
-console.log(num1,num2,num3);
+console.log(num1,num2,num3); // all of value is 4
 
 //-----------------------------------------
 
 let gameCOunter = 100
 gameCOunter++;
-console.log(gameCOunter);
+console.log(gameCOunter); // adding 1 values

@@ -8,6 +8,6 @@ accountCity = "Rajkot"
 // accountId = 00000 // not allowed in const keyword
 accountEmail = "xyz@gmail.com"
 accountPassword = "22222"
-accountCity = "Amreli"
+accountCity = "Amreli" // change to data
 
 console.table([accountId,accountEmail,accountPassword,accountCity]);

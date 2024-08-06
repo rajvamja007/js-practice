@@ -21,16 +21,25 @@ console.log(typeof bigNumber);
 // Non Primitive (Reference)
 // Array , Object , Functions
 
+//array
 const name1 = ["Raj", "Ayush", "Hevin"];
+
+//object
 let obje1 = {
     name: "Raj",
     age: 20
 }
 
+//function
 const function1 = function() {
     console.log("Hello!!");
 }
 
 console.log(typeof name1);
+console.log(name1);
+
 console.log(typeof obje1);
+console.log(obje1);
+
 console.log(typeof function1);
+console.log(function1);
